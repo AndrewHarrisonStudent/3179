@@ -32,7 +32,7 @@
     "color": {
       "field": "Road Geometry",
       "type": "nominal",
-      "scale": {"scheme": "reds"}
+      "scale": {"scheme": "yelloworangered"}
     }
   },
   "config": {}
