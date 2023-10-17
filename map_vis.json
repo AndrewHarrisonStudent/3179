@@ -29,7 +29,7 @@
       "scale": {
         "type": "linear",
         "domain": [0, 2250, 4500],
-        "range": ["White", "Red", "Black"]
+        "scheme": "yelloworangered"
       }
     },
     "tooltip": [
