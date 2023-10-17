@@ -1,89 +1,89 @@
-"LGA_NAME","Total_Crashes"
-"",41
-"(Falls Creek)",15
-"(French Island)",1
-"(Lake Mountain)",13
-"(Mount Baw Baw)",5
-"(Mount Buller)",10
-"(Mount Hotham)",22
-"(Mount Stirling)",1
-"Alpine",272
-"Ararat",174
-"Ballarat",1345
-"Banyule",1094
-"Bass Coast",399
-"Baw Baw",927
-"Bayside",933
-"Benalla",226
-"Bendigo",1465
-"Boroondara",1682
-"Brimbank",2353
-"Buloke",102
-"Campaspe",481
-"Cardinia",1153
-"Casey",3054
-"Central Goldfields",147
-"Colac Otway",543
-"Corangamite",273
-"Dandenong",2557
-"Darebin",1827
-"East Gippsland",758
-"Frankston",1287
-"Gannawarra",147
-"Geelong",2813
-"Glen Eira",1519
-"Glenelg",259
-"Golden Plains",348
-"Hepburn",253
-"Hindmarsh",67
-"Hobsons Bay",1028
-"Horsham",238
-"Hume",2389
-"Indigo",264
-"Kingston",1844
-"Knox",1533
-"Latrobe",839
-"Loddon",153
-"Macedon Ranges",590
-"Manningham",942
-"Mansfield",321
-"Maribyrnong",1045
-"Maroondah",1132
-"Melbourne",4236
-"Melton",1248
-"Mildura",614
-"Mitchell",735
-"Moira",354
-"Monash",2217
-"Moonee Valley",1246
-"Moorabool",509
-"Moreland",2190
-"Mornington Peninsula",1509
-"Mount Alexander",227
-"Mount Buller Alpine Resor",1
-"Moyne",274
-"Murrindindi",613
-"Nillumbik",694
-"Northern Grampians",196
-"Port Phillip",1546
-"Pyrenees",166
-"Queenscliffe",10
-"Shepparton",855
-"South Gippsland",519
-"Southern Grampians",188
-"Stonnington",1625
-"Strathbogie",239
-"Surf Coast",466
-"Swan Hill",250
-"Towong",177
-"Wangaratta",360
-"Warrnambool",307
-"Wellington",702
-"West Wimmera",64
-"Whitehorse",1532
-"Whittlesea",2151
-"Wodonga",322
-"Wyndham",1664
-"Yarra",1803
-"Yarra Ranges",2164
-"Yarriambiack",51
+LGA_NAME,Total_Crashes
+,41
+(Falls Creek),15
+(French Island),1
+(Lake Mountain),13
+(Mount Baw Baw),5
+(Mount Buller),10
+(Mount Hotham),22
+(Mount Stirling),1
+Alpine,272
+Ararat,174
+Ballarat,1345
+Banyule,1094
+Bass Coast,399
+Baw Baw,927
+Bayside (Vic.),933
+Benalla,226
+Greater Bendigo,1465
+Boroondara,1682
+Brimbank,2353
+Buloke,102
+Campaspe,481
+Cardinia,1153
+Casey,3054
+Central Goldfields,147
+Colac Otway,543
+Corangamite,273
+Greater Dandenong,2557
+Darebin,1827
+East Gippsland,758
+Frankston,1287
+Gannawarra,147
+Greater Geelong,2813
+Glen Eira,1519
+Glenelg,259
+Golden Plains,348
+Hepburn,253
+Hindmarsh,67
+Hobsons Bay,1028
+Horsham,238
+Hume,2389
+Indigo,264
+Kingston (Vic.),1844
+Knox,1533
+Latrobe (Vic.),839
+Loddon,153
+Macedon Ranges,590
+Manningham,942
+Mansfield,321
+Maribyrnong,1045
+Maroondah,1132
+Melbourne,4236
+Melton,1248
+Mildura,614
+Mitchell,735
+Moira,354
+Monash,2217
+Moonee Valley,1246
+Moorabool,509
+Moreland,2190
+Mornington Peninsula,1509
+Mount Alexander,227
+Mount Buller Alpine Resor,1
+Moyne,274
+Murrindindi,613
+Nillumbik,694
+Northern Grampians,196
+Port Phillip,1546
+Pyrenees,166
+Queenscliffe,10
+Greater Shepparton,855
+South Gippsland,519
+Southern Grampians,188
+Stonnington,1625
+Strathbogie,239
+Surf Coast,466
+Swan Hill,250
+Towong,177
+Wangaratta,360
+Warrnambool,307
+Wellington,702
+West Wimmera,64
+Whitehorse,1532
+Whittlesea,2151
+Wodonga,322
+Wyndham,1664
+Yarra,1803
+Yarra Ranges,2164
+Yarriambiack,51
