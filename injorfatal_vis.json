@@ -1,0 +1,25 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {"Outcome": "No Injury", "value": 84218, "percentage": "47.1%"},
+      {"Outcome": "Injured or Fatal", "value": 94670, "percentage": "52.9%"}
+    ]
+  },
+  "layer": [
+    {"mark": {"type": "arc", "innerRadius": 50}},
+    {
+      "mark": {"type": "text", "radius": 32},
+      "encoding": {"text": {"field": "percentage", "type": "nominal"}}
+    }
+  ],
+  "encoding": {
+    "theta": {"field": "value", "type": "quantitative", "stack": true},
+    "color": {
+      "field": "Outcome",
+      "type": "nominal",
+      "scale": {"scheme": "reds"}
+    }
+  },
+  "config": {}
+}
