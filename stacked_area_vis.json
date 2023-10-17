@@ -12,5 +12,9 @@
     "y": {"aggregate": "sum", "field": "Count"},
     "color": {"field": "ALCOHOL_RELATED", "scale": {"scheme": "yelloworangered"}}
   },
-  "config": {}
+  "config": {
+  "view": {
+     "stroke": "transparent"
+  }
+}
 }
