@@ -18,12 +18,17 @@
     "color": {
       "field": "Outcome",
       "type": "nominal",
-      "scale": {"domain":["No Injury", "Injured or Fatal"], "scheme":"yelloworangered"}
+      "scale": {
+        "domain": ["No Injury", "Injured or Fatal"],
+        "scheme": "yelloworangered"
+      },
+      "legend": {
+        "direction": "horizontal",
+        "orient": "none",
+        "legendX": 20,
+        "legendY": 210
+      }
     }
   },
-  "config": {
-  "view": {
-     "stroke": "transparent"
-  }
-}
+  "config": {"view": {"stroke": "transparent"}}
 }
