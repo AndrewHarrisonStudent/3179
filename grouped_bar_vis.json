@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 400,
-  "height": 200,
+  "width": 450,
+  "height": 250,
   "data": {
     "url": "https://andrewharrisonstudent.github.io/3179/G_BAR_CHART_DATA.csv"
   },
@@ -18,15 +18,22 @@
         "Friday",
         "Saturday",
         "Sunday"
-      ]
+      ],
+      "axis": {"labelAngle": 25}
     },
-    "y": {"field": "Freq", "type": "quantitative"},
+    "y": {"field": "Freq", "type": "quantitative", "axis": {"grid": false}},
     "xOffset": {"field": "Accident_Type"},
-    "color": {"field": "Accident_Type", "scale": {"scheme": "yelloworangered"}}
+    "color": {
+      "field": "Accident_Type",
+      "scale": {"scheme": "yelloworangered"},
+      "legend": {
+        "orient": "none",
+        "direction": "horizontal",
+        "legendX": -45,
+        "legendY": -40,
+        "labelExpr": "datum.label == 'Collision with a fixed object' ? 'Collision (fixed object)': datum.label =='Collision with vehicle'? 'Collision (Vehicle)':datum.label=='Other accident'?'Other':datum.label=='Vehicle overturned (no collision)'? 'Vehicle overturned':'Struck Pedestrian'"
+      }
+    }
   },
-  "config": {
-  "view": {
-     "stroke": "transparent"
-  }
-}
+  "config": {"view": {"stroke": "transparent"}}
 }
