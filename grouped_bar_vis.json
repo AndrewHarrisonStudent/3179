@@ -19,9 +19,13 @@
         "Saturday",
         "Sunday"
       ],
-      "axis": {"labelAngle": 25}
+      "axis": {"labelAngle": 25, "title": "Day of the Week"}
     },
-    "y": {"field": "Freq", "type": "quantitative", "axis": {"grid": false}},
+    "y": {
+      "field": "Freq",
+      "type": "quantitative",
+      "axis": {"grid": false, "title": "Total Accidents"}
+    },
     "xOffset": {"field": "Accident_Type"},
     "color": {
       "field": "Accident_Type",
