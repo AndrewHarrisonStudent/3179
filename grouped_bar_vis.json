@@ -24,5 +24,9 @@
     "xOffset": {"field": "Accident_Type"},
     "color": {"field": "Accident_Type", "scale": {"scheme": "yelloworangered"}}
   },
-  "config": {}
+  "config": {
+  "view": {
+     "stroke": "transparent"
+  }
+}
 }
