@@ -35,5 +35,9 @@
       "scale": {"scheme": "yelloworangered"}
     }
   },
-  "config": {}
+  "config": {
+  "view": {
+     "stroke": "transparent"
+  }
+}
 }
