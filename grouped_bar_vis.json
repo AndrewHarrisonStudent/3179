@@ -27,6 +27,7 @@
       "field": "Accident_Type",
       "scale": {"scheme": "yelloworangered"},
       "legend": {
+        "title": "Accident Type",
         "orient": "none",
         "direction": "horizontal",
         "legendX": -45,
