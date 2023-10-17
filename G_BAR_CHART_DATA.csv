@@ -1,0 +1,36 @@
+"Day_of_the_Week","Accident_Type","Freq"
+"Monday","Collision with a fixed object",1650
+"Monday","Collision with vehicle",6663
+"Monday","Other accident",667
+"Monday","Struck Pedestrian",935
+"Monday","Vehicle overturned (no collision)",454
+"Tuesday","Collision with a fixed object",1403
+"Tuesday","Collision with vehicle",7312
+"Tuesday","Other accident",656
+"Tuesday","Struck Pedestrian",984
+"Tuesday","Vehicle overturned (no collision)",458
+"Wednesday","Collision with a fixed object",1467
+"Wednesday","Collision with vehicle",7522
+"Wednesday","Other accident",664
+"Wednesday","Struck Pedestrian",1061
+"Wednesday","Vehicle overturned (no collision)",414
+"Thursday","Collision with a fixed object",1522
+"Thursday","Collision with vehicle",7657
+"Thursday","Other accident",691
+"Thursday","Struck Pedestrian",1054
+"Thursday","Vehicle overturned (no collision)",439
+"Friday","Collision with a fixed object",1776
+"Friday","Collision with vehicle",7223
+"Friday","Other accident",774
+"Friday","Struck Pedestrian",1062
+"Friday","Vehicle overturned (no collision)",536
+"Saturday","Collision with a fixed object",1725
+"Saturday","Collision with vehicle",4806
+"Saturday","Other accident",945
+"Saturday","Struck Pedestrian",753
+"Saturday","Vehicle overturned (no collision)",590
+"Sunday","Collision with a fixed object",1936
+"Sunday","Collision with vehicle",5224
+"Sunday","Other accident",1008
+"Sunday","Struck Pedestrian",692
+"Sunday","Vehicle overturned (no collision)",709
