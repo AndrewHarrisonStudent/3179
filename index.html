@@ -136,7 +136,8 @@
   <script type="text/javascript">
     var specVis1 = "./map_vis.json";
     var specVis2 = "./base_donut.vl.json";
-    var specVis3 = "./stacked_area_vis.json";
+    var specVis3 = "./grouped_bar_vis.json";
+    var specVis5 = "./stacked_area_vis.json";
 
     vegaEmbed('#vis1', specVis1, { "actions": false });
 
@@ -152,7 +153,7 @@
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    vegaEmbed('#vis5', specVis3, { "actions": false }).then(function (result) {
+    vegaEmbed('#vis5', specVis5, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
