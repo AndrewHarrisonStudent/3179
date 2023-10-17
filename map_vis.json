@@ -1,0 +1,49 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Road Crashes in Victoria 2013-2019",
+  "width": 700,
+  "height": 400,
+  "projection": {"type": "mercator"},
+  "data": {
+    "url": "https://andrewharrisonstudent.github.io/3179/base_vic.json",
+    "format": {"type": "topojson", "feature": "LGA_2021_AUST_GDA2020"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.LGA_NAME21",
+      "from": {
+        "data": {
+          "url": "https://andrewharrisonstudent.github.io/3179/MAP_DATA.csv"
+        },
+        "key": "LGA_NAME",
+        "fields": ["Total_Crashes"]
+      }
+    },
+    {"calculate": "(datum.Total_Crashes + 0.01)/10", "as": "Total Crashes"}
+  ],
+  "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.25},
+  "encoding": {
+    "color": {
+      "field": "Total Crashes",
+      "type": "quantitative",
+      "scale": {
+        "type": "linear",
+        "domain": [0, 2250, 4500],
+        "range": ["White", "Red", "Black"]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "properties.LGA_NAME21",
+        "type": "nominal",
+        "title": "LGA Name"
+      },
+      {
+        "field": "Total_Crashes",
+        "type": "quantitative",
+        "title": "Total Crashes"
+      }
+    ]
+  },
+  "config": {}
+}
