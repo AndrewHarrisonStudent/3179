@@ -1,0 +1,39 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "Road Geometry": "Not at intersection",
+        "value": 38597,
+        "percentage": "51.5%"
+      },
+      {
+        "Road Geometry": "T intersection",
+        "value": 17587,
+        "percentage": "23.5%"
+      },
+      {
+        "Road Geometry": "Cross intersection",
+        "value": 16752,
+        "percentage": "22.4%"
+      },
+      {"Road Geometry": "Other", "value": 1972, "percentage": "2.6%"}
+    ]
+  },
+  "layer": [
+    {"mark": {"type": "arc", "innerRadius": 50}},
+    {
+      "mark": {"type": "text", "radius": 32},
+      "encoding": {"text": {"field": "percentage", "type": "nominal"}}
+    }
+  ],
+  "encoding": {
+    "theta": {"field": "value", "type": "quantitative", "stack": true},
+    "color": {
+      "field": "Road Geometry",
+      "type": "nominal",
+      "scale": {"scheme": "reds"}
+    }
+  },
+  "config": {}
+}

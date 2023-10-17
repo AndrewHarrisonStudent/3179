@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {"Light Condition": "Day", "value": 48990, "percentage": "67.1%"},
+      {"Light Condition": "Dusk/Dawn", "value": 7769, "percentage": "10.6%"},
+      {"Light Condition": "Dark", "value": 16292, "percentage": "22.3%"}
+    ]
+  },
+  "layer": [
+    {"mark": {"type": "arc", "innerRadius": 50}},
+    {
+      "mark": {"type": "text", "radius": 32},
+      "encoding": {"text": {"field": "percentage", "type": "nominal"}}
+    }
+  ],
+  "encoding": {
+    "theta": {"field": "value", "type": "quantitative", "stack": true},
+    "color": {
+      "field": "Light Condition",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Day", "Dusk/Dawn", "Dark"],
+        "scheme": "yelloworangered"
+      }
+    }
+  },
+  "config": {}
+}
