@@ -10,7 +10,7 @@
   "encoding": {
     "x": {"field": "ACCIDENT_TIME", "type": "temporal"},
     "y": {"aggregate": "sum", "field": "Count"},
-    "color": {"field": "ALCOHOL_RELATED", "scale": {"scheme": "reds"}}
+    "color": {"field": "ALCOHOL_RELATED", "scale": {"scheme": "yelloworangered"}}
   },
   "config": {}
 }
