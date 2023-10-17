@@ -1,0 +1,16 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400,
+  "height": 200,
+  "data": {
+    "url": "https://andrewharrisonstudent.github.io/3179/S_AREA_DATA.csv",
+    "format": {"type": "csv", "parse": {"ACCIDENT_TIME": "date:'%H:%M'"}}
+  },
+  "mark": "area",
+  "encoding": {
+    "x": {"field": "ACCIDENT_TIME", "type": "temporal"},
+    "y": {"aggregate": "sum", "field": "Count"},
+    "color": {"field": "ALCOHOL_RELATED", "scale": {"scheme": "reds"}}
+  },
+  "config": {}
+}
