@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 300,
+  "width": 250,
   "height": 200,
   "data": {
     "values": [
@@ -30,7 +30,7 @@
       "legend": {
         "direction": "horizontal",
         "orient": "none",
-        "legendX": 25,
+        "legendX": 15,
         "legendY": 210
       }
     }

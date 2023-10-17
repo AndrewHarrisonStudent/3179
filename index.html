@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <title>Multiple Visualisations | An Example</title>
+    <title>What Conditions Cause Crashes?</title>
   <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
@@ -20,28 +20,24 @@
   <!-- CSS file -->
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
 
+  <div class="heading">
+      <center>
+      <h1>What Conditions Cause Crashes?</h1>
+      <p></p>
+      <h2>Victorian Car Crash Reports (July 2013 - March 2019)</h2>
+    </center>
+  </div>
 
 </head>
 
-<body>
+<body style="background-image:url('4813_BH_Suburbs_110x160cms.png')">
 
   <div class="page">
-
-    <!-- TITLE -->
-    <!-- pure grid group -->
-    <div class="pure-g">
-      <div class="pure-u-1-1">
-        <h1>What are the conditions that crashes occur most in?</h1>
-        <p>Below you will find the statistics from all reported crashes that occurred in Victoria from July 2013 to March 2019.</p>
-      </div>
-    </div>
-    <!-- end pure grid group -->
-
     <!-- MAP -->
     <!-- pure grid group -->
     <div class="pure-g">
       <div class="pure-u-1-1">
-        <div id="vis1" class="vis-container"></div>
+        <center id="vis1" class="vis-container"></center>
       </div>
     </div>
     <!-- end pure grid group -->
@@ -52,7 +48,16 @@
       <div class="pure-u-2-3">
         <div class="description description-left">
           <h2>How many people are injured or killed?</h2>
-          <p>Infromation of injuries and fatalities and total people involved in accidents.</p>
+          <p>One of the most important statistics about road accidents
+            is that of injuries and fatalities. Ultimately, car crashes are
+            unfortunate consequences of a multitude of factors that come with modern 
+            infrastructure. Since we aren't getting rid of motorvehicles anytime soon,
+            it can prove useful to take a closer look at the factors surrounding these
+            accidents, such that appropriate policies and action can be taken to minimise
+            the state-wide impact (seen map above) and the unfortunate impact on life 
+            (seen right). As shown, more than half the people involved in accidents are
+            either injured or killed.
+          </p>
         </div>
       </div>
       <div class="pure-u-1-3">
@@ -70,7 +75,14 @@
       <div class="pure-u-1-3">
         <div class="description description-right">
           <h2>Accident Type</h2>
-          <p>Information about accident type.</p>
+          <p>One aspect we can inspect is that of accident types, which help to indicate
+            whether one type of accident is more likely than the other. We can also take 
+            a look at the pattern over time, such as days in a week, to spot any consistencies
+            that should be addressed. 
+            As seen to the left, there is an increased prevelance of car accidents
+            during the work days, which slowly increase leading into Friday. The most common
+            accident appears to be vehicle on vehicle collisions throughout the week.
+          </p>
         </div>
       </div>
     </div>
@@ -82,7 +94,15 @@
       <div class="pure-u-2-3">
         <div class="description description-left">
           <h2>Road Geometry</h2>
-          <p>Information about road geometry.</p>
+          <p>Road Geometry is an interesting attribute to inspect, due to the focus
+            from many Victorian officials in charge of road safety advocating for speed
+            cameras at intersections to minimise the risk of accidents. Although we cannot
+            draw significant conclusions from this analysis, it is easy to see that more than
+            half the road accidents, from 2013-2019, did not occur at an intersection. This result
+            may be due to the fact that the speed cameras deter reckless driving at important 
+            intersection types, such as 'Cross' and 'T', however, it appears more could be done
+            to minimise accidents on regular streets.
+          </p>
         </div>
       </div>
       <div class="pure-u-1-3">
@@ -100,7 +120,11 @@
       <div class="pure-u-1-3">
         <div class="description description-right">
           <h2>Alcohol Related</h2>
-          <p>Information about alcohol-related events.</p>
+          <p>Drink-Driving is a known issue, and it may appear that past campaigns have of made a strong impact on 
+            minimising it's occurance. Regardless of alcohol, however, more
+            accidents occur at school pick-up time (3PM-4PM) and peak-hour traffic times (8:45AM, and 5:30PM), 
+            than at any other point in the day.
+          </p>
         </div>
       </div>
     </div>
@@ -112,7 +136,15 @@
       <div class="pure-u-2-3">
         <div class="description description-left">
           <h2>Light Conditions</h2>
-          <p>Information about light conditions.</p>
+          <p>Visibility is the most important factor surround a driver's capabilities to
+            operate a motorvehicle. It may appear counterintuitive then, that more accidents
+            occur during the day, than at dusk, dawn, or night. This can possibly be explained
+            by the higher proportion of cars being present on the road throughout the day, 
+            leading to a greater risk of accidents occuring, which is reflected in these 
+            figures. Hence, it is easy to see, that although we may have assumptions on what
+            factors may appear to be detrimental to drivers, it is only by looking at the data
+            we can uncover the true detail.
+          </p>
         </div>
       </div>
       <div class="pure-u-1-3">
@@ -125,7 +157,10 @@
   <!-- pure grid group -->
     <div class="pure-g">
       <div class="pure-u-1-1">
-        <p>This is where references go.</p>
+        <p>
+            Source: CHAUHAN G. Victoria State Accident DataSet [Internet]. Kaggle.com. 2019 [cited 2023 Sep 22]. Available from: https://www.kaggle.com/datasets/gaurav896/victoria-state-accident-dataset/
+        </p>
+        <p>Author of this Visualisation: Andrew Harrison, Date: 15/10/23</p>
       </div>
     </div>
     <!-- end pure grid group -->
