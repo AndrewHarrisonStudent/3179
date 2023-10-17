@@ -18,7 +18,7 @@
     "color": {
       "field": "Outcome",
       "type": "nominal",
-      "scale": {"scheme": "reds"}
+      "scale": {"domain":["No Injury", "Injured or Fatal"], "scheme":"yelloworangered"}
     }
   },
   "config": {}
