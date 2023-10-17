@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400,
+  "height": 200,
+  "data": {
+    "url": "https://andrewharrisonstudent.github.io/3179/G_BAR_CHART_DATA.csv"
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Day_of_the_Week",
+      "type": "ordinal",
+      "sort": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    "y": {"field": "Freq", "type": "quantitative"},
+    "xOffset": {"field": "Accident_Type"},
+    "color": {"field": "Accident_Type", "scale": {"scheme": "yelloworangered"}}
+  },
+  "config": {}
+}
