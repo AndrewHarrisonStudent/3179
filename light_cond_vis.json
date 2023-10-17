@@ -1,5 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 300,
+  "height": 200,
   "data": {
     "values": [
       {"Light Condition": "Day", "value": 48990, "percentage": "67.1%"},
@@ -22,12 +24,14 @@
       "scale": {
         "domain": ["Day", "Dusk/Dawn", "Dark"],
         "scheme": "yelloworangered"
+      },
+      "legend": {
+        "direction": "horizontal",
+        "orient": "none",
+        "legendX": 50,
+        "legendY": 210
       }
     }
   },
-  "config": {
-  "view": {
-     "stroke": "transparent"
-  }
-}
+  "config": {"view": {"stroke": "transparent"}}
 }
