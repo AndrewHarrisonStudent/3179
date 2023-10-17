@@ -21,5 +21,9 @@
       "scale": {"domain":["No Injury", "Injured or Fatal"], "scheme":"yelloworangered"}
     }
   },
-  "config": {}
+  "config": {
+  "view": {
+     "stroke": "transparent"
+  }
+}
 }
