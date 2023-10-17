@@ -23,7 +23,7 @@
       "field": "ALCOHOL_RELATED",
       "scale": {"scheme": "yelloworangered"},
       "legend": {
-        "title": "Is Alcohol Related?"
+        "title": "Is Alcohol Related?",
         "direction": "horizontal",
         "orient": "none",
         "legendX": 20,
