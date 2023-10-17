@@ -1,22 +1,16 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 300,
+  "height": 200,
   "data": {
     "values": [
       {
-        "Road Geometry": "Not at intersection",
+        "Road Geometry": "Not at inters.",
         "value": 38597,
         "percentage": "51.5%"
       },
-      {
-        "Road Geometry": "T intersection",
-        "value": 17587,
-        "percentage": "23.5%"
-      },
-      {
-        "Road Geometry": "Cross intersection",
-        "value": 16752,
-        "percentage": "22.4%"
-      },
+      {"Road Geometry": "T inters.", "value": 17587, "percentage": "23.5%"},
+      {"Road Geometry": "C inters.", "value": 16752, "percentage": "22.4%"},
       {"Road Geometry": "Other", "value": 1972, "percentage": "2.6%"}
     ]
   },
@@ -32,12 +26,14 @@
     "color": {
       "field": "Road Geometry",
       "type": "nominal",
-      "scale": {"scheme": "yelloworangered"}
+      "scale": {"scheme": "yelloworangered"},
+      "legend": {
+        "direction": "horizontal",
+        "orient": "none",
+        "legendX": 25,
+        "legendY": 210
+      }
     }
   },
-  "config": {
-  "view": {
-     "stroke": "transparent"
-  }
-}
+  "config": {"view": {"stroke": "transparent"}}
 }
